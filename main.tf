@@ -1,8 +1,8 @@
 resource "aws_ecs_cluster" "ecs_cluster" {
-    name = "teste-ecs-tagging"
+    name = "simple-cluster-ecs"
   
   tags = {
-    Sistema = "FTV"
     Managed-by = "Terraform"
   }
 }
+#Creation of a very simple ecs cluster, you can insert more  arguments below "name".
